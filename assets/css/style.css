@@ -1,12 +1,17 @@
 html {
-  overflow-x: hidden; }
+  overflow-x: hidden; 
+  height: -webkit-fill-available;
+}
 
 body {
   font-family: "Raleway", sans-serif;
   background: #fff;
   font-size: 16px;
   line-height: 1.6;
-  color: #383838; }
+  color: #383838; 
+  height: -webkit-fill-available;
+}
+  
 
 a {
   -webkit-transition: .3s all ease;
